@@ -8,5 +8,29 @@ Args:
 Returns:
     int: return answer.
 */
+int func( int a, int b, int c ){
+    int answer;
+
+    if ( a > b ){
+        if ( a > c){
+            return answer = a;
+        }
+
+        else{
+            return answer = c;
+        }
+    }
+    else{
+        if ( b > c ){
+            return answer = b; 
+        }
+        else{
+            return answer = c;
+        }
+    }
+    return answer;
+}
+
 void main() {
+    print(func(1, 4, 2));
 }
