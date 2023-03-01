@@ -8,5 +8,23 @@ Returns:
     int: return answer. 
 */
 
+int func( int a, int b ){
+    int answer;
+
+    if ( a == b ){
+        return answer = 0;
+    }
+    else{
+        if ( a > b ){
+            return answer = a;
+        }
+        else{
+            return answer = b;
+        }
+    }
+    return answer;
+}
+
 void main() {
+    print(func(3, 7));
 }
